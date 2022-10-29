@@ -22,9 +22,9 @@ const style: any = {
     width: 345,
     height: 285,
     margin: 3,
-    backgroundColor: '#87cefa',
-    boxShadow:
-      '0px 2px 100px 0px rgb(181 149 48 / 31%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)',
+    backgroundColor: '#2a6fb0',
+    boxShadow: '0px 2px 100px 0px rgb(71 177 233 / 50%), 0px 5px 10px 0px rgb(116 47 180 / 100%), 0px 1px 3px 0px rgb(0 0 0 / 12%)',
+    borderRadius: '20px'
   },
   cardActionArea: {
     height: 285,

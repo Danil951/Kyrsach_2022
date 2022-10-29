@@ -15,10 +15,12 @@ const style = {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   width: 400,
-  bgcolor: 'background.paper',
-  border: '2px solid #000',
-  boxShadow: 24,
+  bgcolor: '#242628',
+  border: '2px solid #255684',
+  boxShadow: 34,
   p: 4,
+  borderRadius: '20px'
+
 }
 
 export default function BasicModal({ open, setOpen, item }: PropsModal) {
