@@ -55,7 +55,7 @@ export default function SignUp() {
     }
     usersForRewrite.push(objWithNewUsers)
     localStorage.setItem('users', JSON.stringify(usersForRewrite))
-
+    router.push('/')
     cleanInputs()
   }
 
