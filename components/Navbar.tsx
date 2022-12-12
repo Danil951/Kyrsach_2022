@@ -27,19 +27,19 @@ function BottomNavigationBeers() {
   return (
     <Box sx={style}>
       <BottomNavigation showLabels value={value} onChange={handleChangeIndex}>
-        <BottomNavigationAction label="all available beers" icon={<StoreIcon />} />
+        <BottomNavigationAction label="Всі напої" icon={<StoreIcon />} />
         <BottomNavigationAction
-          label="beers that pair with pizza"
+          label="Напої для піци"
           value="pizza"
           icon={<LocalPizzaIcon />}
         />
         <BottomNavigationAction
-          label="beers that pair with steak"
+          label="Напої для стейку"
           value="steak"
           icon={<FastfoodIcon />}
         />
-        <BottomNavigationAction label="Регистрация" href="/registration" />
-        <BottomNavigationAction label="Авторизация" href="/login" />
+        <BottomNavigationAction label="Реєестрація" href="/registration" />
+        <BottomNavigationAction label="Авторизація" href="/login" />
       </BottomNavigation>
     </Box>
   )

@@ -65,7 +65,7 @@ export default function SignIn() {
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
-            Вход
+            Вхід
           </Typography>
           <Box component="form" id="formLogin" onSubmit={handleSubmit} sx={{ mt: 1 }}>
             <TextField
@@ -90,11 +90,11 @@ export default function SignIn() {
               autoComplete="current-password"
             />
             <Button type="submit" fullWidth variant="contained" sx={{ mt: 3, mb: 2 }}>
-              Войти
+              Увійти
             </Button>
 
             <Link href="/registration">
-              <a>Нет ещё аккаунта?</a>
+              <a>Немає акаунта?</a>
             </Link>
           </Box>
         </Box>
